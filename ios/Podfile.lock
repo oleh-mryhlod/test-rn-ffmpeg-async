@@ -1,0 +1,99 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Folly (2016.10.31.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - mobile-ffmpeg-https (3.0)
+  - React (0.57.4):
+    - React/Core (= 0.57.4)
+  - react-native-ffmpeg (0.2.0):
+    - mobile-ffmpeg-https
+    - React
+  - React/Core (0.57.4):
+    - yoga (= 0.57.4.React)
+  - React/CxxBridge (0.57.4):
+    - Folly (= 2016.10.31.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.57.4):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.10.31.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.57.4):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.57.4)
+  - React/jschelpers (0.57.4):
+    - Folly (= 2016.10.31.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.57.4)
+  - React/PrivateDatabase (0.57.4)
+  - React/RCTAnimation (0.57.4):
+    - React/Core
+  - React/RCTBlob (0.57.4):
+    - React/Core
+  - React/RCTNetwork (0.57.4):
+    - React/Core
+  - React/RCTText (0.57.4):
+    - React/Core
+  - React/RCTWebSocket (0.57.4):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.57.4.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - react-native-ffmpeg (from `../node_modules/react-native-ffmpeg/ios/react-native-ffmpeg.podspec`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - mobile-ffmpeg-https
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-ffmpeg:
+    :podspec: "../node_modules/react-native-ffmpeg/ios/react-native-ffmpeg.podspec"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
+
+CHECKOUT OPTIONS:
+  react-native-ffmpeg:
+    :commit: 1f7e7f2b1e5c075386f106c967d00b9b9f250f7b
+    :git: https://github.com/tanersener/react-native-ffmpeg.git
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
+  glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
+  mobile-ffmpeg-https: 3894f102e797bdaddfa5167decb6fc3d01ed8d1e
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  react-native-ffmpeg: 50734725dde3e3207c787adf74e8b72ad507e36b
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 8bcb6ed58c870e040f6ae9924b0078eedcb1f6de
+
+COCOAPODS: 1.5.3
